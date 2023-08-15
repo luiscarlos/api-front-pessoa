@@ -1,7 +1,8 @@
 
-<form >
+<form class="container">
     <img src="assets/cliente.png">
-  
+   
+       
     <label for="nomePessoa">Nome:</label>
     <input type="text" id="nomePessoa" formControlName="nomePessoa" placeholder="Nome" class="form-control">
     
@@ -23,8 +24,28 @@
     <button type="submit" class="btn btn-secondary">Cancelar</button>
     <button type="submit" class="btn btn-danger">Remover</button>
     <button type="submit" class="btn btn-warning">Alterar</button>
-  
+    
 
   </form>
+
+ 
+    <legend>Lista de membros</legend>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>#</th>
+                <th>Id</th>
+                <th>Nome</th>
+                <th>Cpf</th>
+                <th>Idade</th>
+                <th>Estado </th>
+                <th>Pais</th>
+                <th>Selecionar</th>
+            </tr>
+        </thead>
+            <tbody></tbody>
+       
+    </table>
+   
   
 
