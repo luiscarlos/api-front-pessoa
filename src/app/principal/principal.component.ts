@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./principal.component.css']
 })
 export class PrincipalComponent {
-
+// variavel para visibilidade dos botons
+  btnCadastro:boolean = true;
 }

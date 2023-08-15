@@ -20,10 +20,10 @@
     
     <!-- Mais campos do formulário aqui -->
   
-    <button type="submit" class="btn btn-primary">Enviar</button>
-    <button type="submit" class="btn btn-secondary">Cancelar</button>
-    <button type="submit" class="btn btn-danger">Remover</button>
-    <button type="submit" class="btn btn-warning">Alterar</button>
+    <button type="submit" class="btn btn-primary" *ngIf="btnCadastro">Enviar</button>
+    <button type="submit" class="btn btn-secondary" *ngIf="!btnCadastro">Cancelar</button>
+    <button type="submit" class="btn btn-danger" *ngIf="!btnCadastro">Remover</button>
+    <button type="submit" class="btn btn-warning" *ngIf="!btnCadastro">Alterar</button>
     
 
   </form>
